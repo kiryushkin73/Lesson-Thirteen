@@ -26,7 +26,6 @@ body {
   width: inherit;
   height: inherit;
   border: 7px solid whitesmoke;
-
   background-color: teal;
   opacity: 0.8;
   font: normal 70px arial;
@@ -45,11 +44,12 @@ body {
 .left {
   transform: rotateY(-90deg) translateZ(100px);
 }
+
 .top {
   transform: rotateX(90deg) translateZ(100px);
 }
 .bottom {
-  transform: rotateX(-90deg) translateZ(100px);
+  transform: rotateX(-180deg) translateZ(100px);
 }
 @keyframes cube {
   0% {
